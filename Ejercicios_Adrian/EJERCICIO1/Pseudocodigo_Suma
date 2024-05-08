@@ -1,0 +1,13 @@
+Inicio del pseudocódigo
+    // Se definen los numeros que se van a sumar: 
+    num1 = 50
+    num2 = 18
+    num3 = 32
+    num4 = 79
+
+    // Sumar los cuatro números:
+    resultado = num1 + num2 + num3 + num4
+
+    // Imprimir el resultado
+    Imprimir "El resultado de la suma es:", resultado
+Fin del pseudocódigo
