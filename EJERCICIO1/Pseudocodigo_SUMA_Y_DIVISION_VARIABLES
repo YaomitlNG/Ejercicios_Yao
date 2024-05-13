@@ -1,0 +1,18 @@
+Inicio
+    Escribir "Ingrese el primer número: "
+    Leer num1
+    Escribir "Ingrese el segundo número: "
+    Leer num2
+    Escribir "Ingrese el tercer número: "
+    Leer num3
+    Escribir "Ingrese el cuarto número: "
+    Leer num4
+
+    suma1 = num1 + num2
+    suma2 = num3 + num4
+    division = suma1 / suma2
+
+    Escribir "La suma de los números 1 y 2 es:", suma1
+    Escribir "La suma de los números 3 y 4 es:", suma2
+    Escribir "La división de la suma 1 y 2 es:", division
+Fin

@@ -1,0 +1,13 @@
+Inicio
+    Escribir "Ingrese el primer número: "
+    Leer num1 como entero
+    Escribir "Ingrese el segundo número: "
+    Leer num2 como entero
+    Escribir "Ingrese el tercer número: "
+    Leer num3 como entero
+    Escribir "Ingrese el cuarto número: "
+    Leer num4 como entero
+
+    multiplicar = num1 * num2 * num3 * num4
+    Escribir "La multiplicación de los cuatro números es:", multiplicación
+Fin
