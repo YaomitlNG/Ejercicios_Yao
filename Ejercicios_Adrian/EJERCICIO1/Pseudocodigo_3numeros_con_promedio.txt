@@ -1,0 +1,15 @@
+Inicio
+    // Pedir al usuario que ingrese los tres números enteros
+    Escribir "Ingrese el primer número entero: "
+    Leer numero1
+    Escribir "Ingrese el segundo número entero: "
+    Leer numero2
+    Escribir "Ingrese el tercer número entero: "
+    Leer numero3
+
+    // Calcular el promedio de los tres números
+    promedio = (numero1 + numero2 + numero3) / 3
+
+    // Imprimir el resultado
+    Escribir "El promedio de los tres números es:", promedio
+Fin
