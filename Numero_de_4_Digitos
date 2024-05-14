@@ -1,0 +1,6 @@
+numero = input("Ingresa un número (máximo 4 dígitos): ")
+
+if len(numero) <= 4:
+    print(f"El número {numero} tiene {len(numero)} dígitos.")
+else:
+    print("El número ingresado tiene más de 4 dígitos.")
