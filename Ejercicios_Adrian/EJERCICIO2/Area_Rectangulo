@@ -1,0 +1,7 @@
+a = int(input("Número ingresado por el usuario: "))
+b = int(input("Número ingresado por el usuario: "))
+
+Area = a * b
+Perimetro = 2 * (a + b)
+
+print(f"El área es igual a {Area} y el perímetro es igual a {Perimetro}")
