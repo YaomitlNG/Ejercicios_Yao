@@ -1,10 +1,7 @@
-# Solicita al usuario que ingrese un número
 N = int(input("Ingresa un número entre 1 y 1000: "))
 
-# Muestra el número ingresado
 print(f"N: {N}")
 
-# Verifica si el número es múltiplo de 5 y si está entre los primeros 25 números
 if N % 5 == 0 and N <= 25:
     print("Correcto")
 else:
