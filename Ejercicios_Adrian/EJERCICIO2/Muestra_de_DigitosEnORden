@@ -1,0 +1,9 @@
+numero = input("Ingresa un número de máximo 4 dígitos: ")
+
+if len(numero) > 4 or not numero.isdigit():
+    print("El número ingresado no es válido. Debe ser un número de máximo 4 dígitos.")
+else:
+    numero = numero.zfill(4)
+    
+    d1, d2, d3, d4 = numero[0], numero[1], numero[2], numero[3]
+    print(f"d1={d1},d2={d2},d3={d3},d4={d4}")
