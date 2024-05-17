@@ -1,0 +1,147 @@
+1. p ^ q
+p | q | p ∧ q
+------------
+V | V | V
+V | F | F
+F | V | F
+F | F | F
+
+2.p v q
+p | q | p ∨ q
+------------
+V | V | V
+V | F | V
+F | V | V
+F | F | F
+
+3.p ^ p
+p | p ∧ p
+---------
+V | V
+F | F
+
+4.p v p
+p | p ∨ p
+---------
+V | V
+F | F
+
+5.q ^ q
+q | q ∧ q
+---------
+V | V
+F | F
+
+6.q v q
+q | q ∨ q
+---------
+V | V
+F | F
+
+7.(p ^ q) ^ r
+p | q | r | (p ∧ q) ∧ r
+----------------------
+V | V | V | V
+V | V | F | F
+V | F | V | F
+V | F | F | F
+F | V | V | F
+F | V | F | F
+F | F | V | F
+F | F | F | F
+
+8.(p ^ q) v r
+p | q | r | (p ∧ q) ∨ r
+----------------------
+V | V | V | V
+V | V | F | V
+V | F | V | V
+V | F | F | F
+F | V | V | V
+F | V | F | F
+F | F | V | V
+F | F | F | F
+
+9.(p ^ q) ^ (r v q)
+p | q | r | (p ∧ q) ∧ (r ∨ q)
+----------------------------
+V | V | V | V
+V | V | F | V
+V | F | V | F
+V | F | F | F
+F | V | V | F
+F | V | F | F
+F | F | V | F
+F | F | F | F
+
+10. (p ^ q) v (r ^ q)
+p | q | r | (p ∧ q) ∨ (r ∧ q)
+----------------------------
+V | V | V | V
+V | V | F | V
+V | F | V | F
+V | F | F | F
+F | V | V | V
+F | V | F | F
+F | F | V | F
+F | F | F | F
+
+11.¬((p ^ q) ^ r)
+p | q | r | (p ∧ q) ∧ r | ¬((p ∧ q) ∧ r)
+----------------------------------------
+V | V | V | V | F
+V | V | F | F | V
+V | F | V | F | V
+V | F | F | F | V
+F | V | V | F | V
+F | V | F | F | V
+F | F | V | F | V
+F | F | F | F | V
+
+12.¬((p ^ q) v r)
+p | q | r | (p ∧ q) ∨ r | ¬((p ∧ q) ∨ r)
+----------------------------------------
+V | V | V | V | F
+V | V | F | V | F
+V | F | V | V | F
+V | F | F | F | V
+F | V | V | V | F
+F | V | F | F | V
+F | F | V | V | F
+F | F | F | F | V
+
+13.¬((p ^ q) ^ (r v q))
+p | q | r | (p ∧ q) ∨ r | ¬((p ∧ q) ∨ r)
+----------------------------------------
+V | V | V | V | F
+V | V | F | V | F
+V | F | V | V | F
+V | F | F | F | V
+F | V | V | V | F
+F | V | F | F | V
+F | F | V | V | F
+F | F | F | F | V
+
+14.¬((p ^ q) v (r ^ q))
+p | q | r | (p ∧ q) ∨ (r ∧ q) | ¬((p ∧ q) ∨ (r ∧ q))
+--------------------------------------------------
+V | V | V | V | F
+V | V | F | V | F
+V | F | V | F | V
+V | F | F | F | V
+F | V | V | V | F
+F | V | F | F | V
+F | F | V | F | V
+F | F | F | F | V
+
+15.(p ^ q) v ¬(r ^ q)
+p | q | r | p ∧ q | r ∧ q | ¬(r ∧ q) | (p ∧ q) ∨ ¬(r ∧ q)
+--------------------------------------------------------
+V | V | V | V | V | F | V
+V | V | F | V | F | V | V
+V | F | V | F | F | V | V
+V | F | F | F | F | V | V
+F | V | V | F | V | F | F
+F | V | F | F | F | V | V
+F | F | V | F | F | V | V
+F | F | F | F | F | V | V
