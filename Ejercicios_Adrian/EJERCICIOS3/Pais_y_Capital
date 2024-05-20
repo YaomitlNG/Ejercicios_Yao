@@ -1,0 +1,5 @@
+pais = input("Ingrese el nombre del país: ")
+
+capital = input("Ingrese el nombre de la capital: ")
+
+print(f"{capital} es la capital de {pais}.")

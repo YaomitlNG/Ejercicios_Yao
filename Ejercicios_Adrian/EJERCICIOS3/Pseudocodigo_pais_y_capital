@@ -1,0 +1,14 @@
+INICIO
+
+     Solicitar al usuario que ingrese el nombre del país
+    ESCRIBIR "Ingrese el nombre del país: "
+    LEER pais
+
+     Solicitar al usuario que ingrese el nombre de la capital
+    ESCRIBIR "Ingrese el nombre de la capital: "
+    LEER capital
+
+     Mostrar el resultado por pantalla
+    ESCRIBIR capital, " es la capital de ", pais, "."
+
+FIN
