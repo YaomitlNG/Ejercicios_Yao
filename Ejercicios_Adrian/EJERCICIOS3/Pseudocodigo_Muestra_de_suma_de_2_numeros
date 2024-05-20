@@ -1,0 +1,21 @@
+INICIO
+
+     Solicitar al usuario que ingrese dos números enteros
+    ESCRIBIR "Ingrese el primer número entero: "
+    LEER numero1
+
+    ESCRIBIR "Ingrese el segundo número entero: "
+    LEER numero2
+
+     Definir la función para sumar dos números enteros
+    FUNCION sumar_numeros(a, b)
+        RETORNAR a + b
+    FIN FUNCION
+
+     Calcular la suma utilizando la función definida
+    suma = sumar_numeros(numero1, numero2)
+
+     Mostrar el resultado por pantalla
+    ESCRIBIR "La suma de ", numero1, " y ", numero2, " es: ", suma
+
+FIN
