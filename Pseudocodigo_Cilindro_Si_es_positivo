@@ -1,0 +1,31 @@
+INICIO
+
+     Solicitar al usuario que ingrese el radio del cilindro
+    ESCRIBIR "Ingrese el radio del cilindro: "
+    LEER radio
+
+     Solicitar al usuario que ingrese la altura del cilindro
+    ESCRIBIR "Ingrese la altura del cilindro: "
+    LEER altura
+
+     Definir la función para calcular el volumen del cilindro
+    FUNCIÓN calcular_volumen_cilindro(radio, altura):
+        SI radio <= 0 O altura <= 0 ENTONCES
+            ESCRIBIR "El radio y la altura deben ser valores positivos."
+            RETORNAR Nulo
+        SINO
+            pi = 3.1416 
+            volumen = pi * radio^2 * altura 
+            RETORNAR volumen
+        FIN SI
+    FIN FUNCIÓN
+
+     Calcular el volumen del cilindro utilizando la función definida
+    volumen = calcular_volumen_cilindro(radio, altura)
+
+     Mostrar el resultado si el volumen es válido
+    SI volumen NO es Nulo ENTONCES
+        ESCRIBIR "El volumen del cilindro es:", volumen
+    FIN SI
+
+FIN

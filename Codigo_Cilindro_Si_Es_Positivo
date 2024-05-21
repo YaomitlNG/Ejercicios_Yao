@@ -1,0 +1,15 @@
+radio = float(input("Ingrese el radio del cilindro: "))
+altura = float(input(" Ingrese la altura del cilindro: "))
+
+def calcular_volumen_cilindro(radio, altura):
+    if radio <= 0 or altura <= 0:
+        print("El radio y la altura deben ser valores positivos.")
+        return None
+    else:
+        pi = 3.1416 
+        volumen = pi * radio ** 2 * altura 
+        return volumen
+    
+volumen = calcular_volumen_cilindro(radio, altura)
+if volumen is not None:
+    print(f"El volumen del cilindro es: {volumen}")
