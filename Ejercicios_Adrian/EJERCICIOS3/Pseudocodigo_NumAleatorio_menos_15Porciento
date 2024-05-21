@@ -1,0 +1,18 @@
+INICIO
+
+     Importar el módulo random para generar números aleatorios
+    IMPORTAR random
+
+     Generar un número aleatorio entre 10 y 50
+    numero_aleatorio = Generar un número aleatorio entre 10 y 50
+
+     Mostrar el número aleatorio generado
+    ESCRIBIR "Número aleatorio generado:", numero_aleatorio
+
+     Calcular el número disminuido en un 15%
+    numero_disminuido = numero_aleatorio multiplicado por 0.85
+
+     Mostrar el número disminuido en un 15%
+    ESCRIBIR "Número disminuido en un 15%:", numero_disminuido
+
+FIN

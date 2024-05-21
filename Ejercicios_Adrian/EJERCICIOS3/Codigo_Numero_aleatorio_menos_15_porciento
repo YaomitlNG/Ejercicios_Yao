@@ -1,0 +1,7 @@
+import random
+
+numero_aleatorio = random.randint(10, 50)
+print("Numero aleatorio generado:", numero_aleatorio)
+
+numero_disminuido = numero_aleatorio * 0.85 
+print("Número disminuido en un 15%:", numero_disminuido)
