@@ -1,0 +1,19 @@
+INICIO
+
+     Solicitar al usuario que ingrese un número
+    ESCRIBIR "Ingrese un número: "
+    LEER numero
+
+     Calcular el cuadrado del número
+    cuadrado = numero elevado a la potencia 2
+
+     Calcular el cubo del número
+    cubo = numero elevado a la potencia 3
+
+     Mostrar el cuadrado del número
+    ESCRIBIR "El cuadrado de ", numero, " es ", cuadrado, "."
+
+     Mostrar el cubo del número
+    ESCRIBIR "El cubo de ", numero, " es ", cubo, "."
+
+FIN

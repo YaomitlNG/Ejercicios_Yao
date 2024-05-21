@@ -1,16 +1,16 @@
 INICIO
 
-    // Solicitar al usuario que ingrese un número
+     Solicitar al usuario que ingrese un número
     ESCRIBIR "Ingrese un número: "
     LEER numero
 
-    // Calcular el doble del número
+     Calcular el doble del número
     doble = numero * 2
 
-    // Calcular el triple del número
+     Calcular el triple del número
     triple = numero * 3
 
-    // Mostrar el resultado en pantalla
+     Mostrar el resultado en pantalla
     ESCRIBIR "El doble de ", numero, " es ", doble, "."
     ESCRIBIR "El triple de ", numero, " es ", triple, "."
 
