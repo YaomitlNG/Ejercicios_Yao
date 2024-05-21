@@ -1,0 +1,26 @@
+INICIO
+
+     Solicitar al usuario que ingrese el valor en centímetros
+    ESCRIBIR "Ingrese el valor en centímetros: "
+    LEER centimetros
+
+     Convertir centímetros a yardas
+    yardas = centimetros / 91.44
+
+     Convertir centímetros a metros
+    metros = centimetros / 100
+
+     Convertir centímetros a pies
+    pies = centimetros / 30.48
+
+     Convertir centímetros a pulgadas
+    pulgadas = centimetros / 2.54
+
+     Mostrar los resultados
+    ESCRIBIR "El valor ingresado en centímetros equivale a:"
+    ESCRIBIR yardas, "yardas"
+    ESCRIBIR metros, "metros"
+    ESCRIBIR pies, "pies"
+    ESCRIBIR pulgadas, "pulgadas"
+
+FIN

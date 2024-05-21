@@ -1,0 +1,12 @@
+centimetros = float(input("Ingrese el valor en centímetros: "))
+
+yardas = centimetros  / 91.44
+metros = centimetros / 100
+pies = centimetros / 30.48
+pulgadas = centimetros / 2.54
+
+print(f"{centimetros} centímetros equivalen a:")
+print(f"{yardas} yardas")
+print(f"{metros} metros")
+print(f"{pies} pies")
+print(f"{pulgadas} pulgadas")
