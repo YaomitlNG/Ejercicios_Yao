@@ -1,0 +1,26 @@
+INICIO
+
+     Solicitar al usuario que ingrese el primer número
+    ESCRIBIR "Ingrese el primer número: "
+    LEER numero1
+
+     Solicitar al usuario que ingrese el segundo número
+    ESCRIBIR "Ingrese el segundo número: "
+    LEER numero2
+
+     Verificar si el segundo número es cero
+    SI numero2 ES IGUAL A 0 ENTONCES
+        ESCRIBIR "El segundo número no puede ser cero"
+    SINO
+         Realizar la división
+        division = numero1 / numero2
+        
+         Verificar si el resultado de la división es un entero
+        SI division ES IGUAL a un numero entero ENTONCES
+            ESCRIBIR "Es divisible"
+        SINO
+            ESCRIBIR "No es divisible"
+        FIN SI
+    FIN SI
+
+FIN

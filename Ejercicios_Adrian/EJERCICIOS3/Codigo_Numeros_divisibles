@@ -1,0 +1,11 @@
+numero1 = float(input("Ingrese el primer número: "))
+numero2 = float(input("Ingrese el segundo número: "))
+
+if numero2 != 0:
+    division = numero1 / numero2
+    if division == int(division):
+        print("Es divisible")
+    else:
+        print("No es divisible")
+else:
+    print("El segundo número no puede ser cero")
