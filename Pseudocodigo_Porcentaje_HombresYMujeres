@@ -1,0 +1,24 @@
+INICIO
+
+     Solicitar al usuario que ingrese el total de hombres
+    ESCRIBIR "Ingrese el total de hombres: "
+    LEER total_hombres
+
+     Solicitar al usuario que ingrese el total de mujeres
+    ESCRIBIR "Ingrese el total de mujeres: "
+    LEER total_mujeres
+
+     Calcular el total de personas
+    total_personas = total_hombres + total_mujeres
+
+     Calcular el porcentaje de hombres
+    porcentaje_hombres = (total_hombres / total_personas) * 100
+
+     Calcular el porcentaje de mujeres
+    porcentaje_mujeres = (total_mujeres / total_personas) * 100
+
+     Mostrar los resultados
+    ESCRIBIR "Porcentaje de hombres: ", porcentaje_hombres, "%"
+    ESCRIBIR "Porcentaje de mujeres: ", porcentaje_mujeres, "%"
+
+FIN

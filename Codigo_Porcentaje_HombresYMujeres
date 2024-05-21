@@ -1,0 +1,11 @@
+Hombres = int(input("Ingrese el total de hombres: "))
+
+Mujeres = int(input("Ingrese el total de mujeres: "))
+
+total_personas = Hombres + Mujeres
+
+porcentaje_hombres = (Hombres / total_personas) * 100
+porcentaje_mujeres = (Mujeres / total_personas) * 100
+
+print(f"Porcentaje de hombres: {porcentaje_hombres:.2f}%")
+print(f"Porcentaje de mujeres: {porcentaje_mujeres:.2f}%")
