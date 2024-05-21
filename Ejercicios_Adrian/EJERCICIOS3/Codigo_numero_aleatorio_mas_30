@@ -1,0 +1,10 @@
+import random 
+
+numero_aleatorio = random.randint(0, 200)
+
+print("Numero aleatorio generado:" , numero_aleatorio)
+
+aumento = numero_aleatorio * 0.30 
+numero_aumentado = numero_aleatorio + aumento
+
+print("Número aumentado  en un 30%:", numero_aumentado)

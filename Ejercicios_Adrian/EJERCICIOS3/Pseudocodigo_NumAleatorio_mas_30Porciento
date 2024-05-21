@@ -1,0 +1,21 @@
+INICIO
+
+     Importar el módulo random para generar números aleatorios
+    IMPORTAR random
+
+     Generar un número aleatorio entre 0 y 200
+    numero_aleatorio = Generar un número aleatorio entre 0 y 200
+
+     Mostrar el número aleatorio generado
+    ESCRIBIR "Número aleatorio generado:", numero_aleatorio
+
+     Calcular el aumento del 30%
+    aumento = numero_aleatorio multiplicado por 0.30
+
+     Calcular el número aumentado en un 30%
+    numero_aumentado = numero_aleatorio + aumento
+
+     Mostrar el número aumentado en un 30%
+    ESCRIBIR "Número aumentado en un 30%:", numero_aumentado
+
+FIN
