@@ -1,0 +1,20 @@
+INICIO
+
+     Definir el valor de pi
+    pi = 3.1416
+
+     Solicitar al usuario que ingrese el radio del cilindro
+    ESCRIBIR "Ingrese el radio del cilindro: "
+    LEER radio
+
+     Solicitar al usuario que ingrese la altura del cilindro
+    ESCRIBIR "Ingrese la altura del cilindro: "
+    LEER altura
+
+     Calcular el volumen del cilindro
+    volumen = pi * radio^2 * altura
+
+     Mostrar el volumen del cilindro
+    ESCRIBIR "El volumen del cilindro es: ", volumen
+
+FIN
