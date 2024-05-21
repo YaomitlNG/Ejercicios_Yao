@@ -1,0 +1,13 @@
+INICIO
+
+     Solicitar al usuario que ingrese la temperatura en Celsius
+    ESCRIBIR "Ingrese la temperatura en Celsius: "
+    LEER Celsius
+
+     Convertir la temperatura de Celsius a Fahrenheit
+    Fahrenheit = (Celsius * 9/5) + 32
+
+     Mostrar la temperatura en Fahrenheit
+    ESCRIBIR "La temperatura en Fahrenheit es:", Fahrenheit
+
+FIN
