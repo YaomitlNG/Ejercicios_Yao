@@ -1,0 +1,20 @@
+#Diseñar un algoritmo que imprima con un cartel el número de docena («primera», «segunda» o «tercera») 
+#dado el resultado de una jugada de ruleta (del 0 al 36). Utilizar el operador lógico and.
+
+import random
+
+numero_ruleta = random.randint (0,36)
+
+def obtener_docena(numero):
+    if numero >=1 and numero <= 12:
+        return "Primera"
+    elif numero >=13 and numero <= 24:
+        return "Segunda"
+    elif numero >=25 and numero <= 36:
+        return "Tercera"
+    else:
+        return "Fuera de rango"
+    
+docena = obtener_docena(numero_ruleta)
+
+print(f"El número {numero_ruleta} esta en la {docena} docena.")

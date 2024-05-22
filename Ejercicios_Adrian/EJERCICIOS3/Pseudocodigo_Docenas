@@ -1,0 +1,29 @@
+INICIO
+
+     Importar la librería random
+    IMPORTAR random
+
+Generar un número aleatorio entre 0 y 36
+    numero_ruleta = GENERAR_NUMERO_ENTRE(0, 36)
+
+     Definir la función para obtener la docena correspondiente
+    FUNCIÓN obtener_docena(numero):
+        SI numero >= 1 Y numero <= 12 ENTONCES
+            RETORNAR "primera"
+        SINO SI numero >= 13 Y numero <= 24 ENTONCES
+            RETORNAR "segunda"
+        SINO SI numero >= 25 Y numero <= 36 ENTONCES
+            RETORNAR "tercera"
+        SINO
+            RETORNAR "Número fuera de rango"
+        FIN SI
+    FIN FUNCIÓN
+
+     
+     Obtener la docena correspondiente al número de la ruleta
+    docena = obtener_docena(numero_ruleta)
+
+     Imprimir el resultado
+    ESCRIBIR "El número ", numero_ruleta, " está en la ", docena, " docena."
+
+FIN
