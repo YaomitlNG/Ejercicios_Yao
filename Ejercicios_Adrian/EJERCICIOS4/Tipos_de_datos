@@ -1,0 +1,135 @@
+1. Tipos de Datos Numéricos
+a) Enteros (int)
+Números enteros, positivos o negativos, sin parte decimal.
+Ejemplos:
+
+a = 10
+b = -5
+c = 0
+d = 123456789
+e = -987654321
+
+b) Flotantes (float)
+Números con parte decimal.
+Ejemplos:
+
+a = 10.5
+b = -5.75
+c = 0.0
+d = 3.14159
+e = -2.71828
+
+c) Complejos (complex)
+Números con parte real e imaginaria.
+Ejemplos:
+
+a = 1 + 2j
+b = -3 + 4j
+c = 0 + 1j
+d = 3.14 - 2.73j
+e = -1.23 + 0j
+
+2. Tipos de Datos de Secuencia
+a) Cadenas (str)
+Secuencia de caracteres.
+Ejemplos:
+
+a = "Hola"
+b = 'Mundo'
+c = "12345"
+d = 'Python'
+e = "¡Bienvenido!"
+
+b) Listas (list)
+Colección ordenada y mutable de elementos.
+Ejemplos:
+
+a = [1, 2, 3, 4, 5]
+b = ["a", "b", "c"]
+c = [1, "a", 2.5]
+d = [[1, 2], [3, 4]]
+e = []
+
+c) Tuplas (tuple)
+Colección ordenada e inmutable de elementos.
+Ejemplos:
+
+a = (1, 2, 3)
+b = ("a", "b", "c")
+c = (1, "a", 2.5)
+d = ((1, 2), (3, 4))
+e = ()
+
+3. Tipos de Datos de Mapeo
+a) Diccionarios (dict)
+Colección de pares clave-valor.
+Ejemplos:
+
+a = {"name": "Alice", "age": 25}
+b = {"a": 1, "b": 2, "c": 3}
+c = {1: "uno", 2: "dos"}
+d = {"frutas": ["manzana", "banana"], "vegetales": ["zanahoria", "apio"]}
+e = {}
+
+4. Tipos de Datos de Conjunto
+a) Conjuntos (set)
+Colección desordenada de elementos únicos.
+Ejemplos:
+
+a = {1, 2, 3}
+b = {"a", "b", "c"}
+c = {1, "a", 2.5}
+d = {1, 2, 2, 3, 3}  # {1, 2, 3}
+e = set()
+
+b) Conjuntos Inmutables (frozenset)
+Conjunto inmutable de elementos únicos.
+Ejemplos:
+
+a = frozenset([1, 2, 3])
+b = frozenset(["a", "b", "c"])
+c = frozenset([1, "a", 2.5])
+d = frozenset([1, 2, 2, 3, 3])  # frozenset({1, 2, 3})
+e = frozenset()
+
+5. Tipos de Datos Booleanos
+a) Booleanos (bool)
+Representa valores de verdad: True o False.
+Ejemplos:
+
+a = True
+b = False
+c = 1 == 1  # True
+d = 1 != 1  # False
+e = bool(0)  # False
+
+6. Tipos de Datos Binarios
+a) Bytes (bytes)
+Secuencia de enteros en el rango de 0 a 255.
+Ejemplos:
+
+a = b"Hola"
+b = bytes([65, 66, 67])
+c = b'\x01\x02\x03'
+d = b''
+e = bytes("Hola", "utf-8")
+
+b) Bytearray (bytearray)
+Similar a bytes, pero mutable.
+Ejemplos:
+
+a = bytearray(b"Hola")
+b = bytearray([65, 66, 67])
+c = bytearray(b'\x01\x02\x03')
+d = bytearray()
+e = bytearray("Hola", "utf-8")
+
+c) Memoryview (memoryview)
+Permite el acceso directo a los datos subyacentes de objetos que soportan el protocolo de buffer.
+Ejemplos:
+
+a = memoryview(b"Hola")
+b = memoryview(bytearray([1, 2, 3]))
+c = memoryview(b'\x01\x02\x03')
+d = memoryview(b"")
+e = memoryview(bytes("Hola", "utf-8"))
